@@ -23,10 +23,25 @@ body{
     height: 150px;
     font-size: 16px;
     font-family: cursive;
+    box-sizing: border-box;
+    padding: 7px;
+    border: solid;
+    border-radius: 7px;
 }
 
+.counter-container{
+    display: flex;
+    justify-content: space-between;
+}
 
+.counter-container p{
+    font-size: 18px;
+}
 
+.total{
+    color: blue;
+}
 
-
-
+.remaining{
+    color: red;
+}
